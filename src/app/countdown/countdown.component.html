@@ -1,0 +1,18 @@
+
+<div class="container">
+  <h1 class="timer">
+    <div class="timer">
+      <p class="timer-text" style="text-align: center">{{ remainingTime }}</p>
+    </div>
+
+  </h1>
+  <ol class="lapContainer"></ol>
+  <div class="bottomPart">
+    <div class="btns">
+      <button class="reset" (click)="reset()">Reset</button>
+      <button class="toggle" (click)="start()">Start</button>
+      <button class="lap" (click)="stop()">Stop</button>
+    </div>
+  </div>
+</div>
+<p style="text-align: center ">{{ message }}</p>
